@@ -12,9 +12,16 @@
 
 ## 🌟 پیش‌نمایش محیط جدید استودیو
 
-| ادیتور و نوار ابزار بوم | استایل‌ها و پالت‌های گرادیان | ذخیره رسپانسیو و انیمیشن |
+| ادیتور سایبر نئون و اسلایدر زنده | استایل‌های شیشه‌ای و جعبه متن | خروجی رسپانسیو و فرمت‌های نوین |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-editor.png" width="260" alt="Editor" /> | <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-layout.png" width="260" alt="Layout" /> | <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-save.png" width="260" alt="Save" /> |
+| <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-editor.png" width="260" alt="سایبر نئون و نوار ابزار بوم" /> | <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-layout.png" width="260" alt="استایل‌های جعبه متن" /> | <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-save.png" width="260" alt="خروجی رسپانسیو" /> |
+
+<br />
+
+<div align="center">
+  <kbd><b>نمای عریض دسکتاپ و اسکرول اینرسی با ماوس (Widescreen Studio & Desktop UX)</b></kbd><br />
+  <img src="https://raw.githubusercontent.com/omid-io/FontWoW.github.io/main/docs/screen-wide.png" width="820" alt="نمای عریض دسکتاپ" />
+</div>
 
 ---
 
