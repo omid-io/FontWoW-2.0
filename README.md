@@ -17,14 +17,14 @@
 
 ---
 
-[![Deploy](https://github.com/omid-io/FontWoW.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/omid-io/FontWoW.github.io/actions/workflows/deploy.yml)
-[![Android Release](https://github.com/omid-io/FontWoW.github.io/actions/workflows/release.yml/badge.svg)](https://github.com/omid-io/FontWoW.github.io/actions/workflows/release.yml)
+[![Deploy](https://github.com/omid-io/FontWoW-2.0/actions/workflows/deploy.yml/badge.svg)](https://github.com/omid-io/FontWoW-2.0/actions/workflows/deploy.yml)
+[![Android Release](https://github.com/omid-io/FontWoW-2.0/actions/workflows/release.yml/badge.svg)](https://github.com/omid-io/FontWoW-2.0/actions/workflows/release.yml)
 [![React 19](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)](https://react.dev/)
 [![Vite 8](https://img.shields.io/badge/Vite-8-646cff?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Capacitor 8](https://img.shields.io/badge/Capacitor-8-1189ff?logo=capacitor&logoColor=white)](https://capacitorjs.com/)
 [![GPL-3.0 License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
-🌐 **[نسخه وب آنلاین استودیو](https://omid-io.github.io/FontWoW.github.io/)** | 📱 **[دریافت مستقیم نسخه اندروید (APK)](https://github.com/omid-io/FontWoW.github.io/releases/latest)**
+🌐 **[نسخه وب آنلاین استودیو](https://omid-io.github.io/FontWoW-2.0/)** | 📱 **[دریافت مستقیم نسخه اندروید (APK)](https://github.com/omid-io/FontWoW-2.0/releases/latest)**
 
 <br />
 

@@ -180,12 +180,22 @@ async function trimTransparentImage(dataUrl, padding = 16) {
     const cropW = safeMaxX - safeMinX
     const cropH = safeMaxY - safeMinY
 
+    const TARGET_WIDTH = 900
+    let scale = TARGET_WIDTH / cropW
+    if (cropH * scale > 1600) {
+      scale = 1600 / cropH
+    }
+    const outW = Math.max(1, Math.round(cropW * scale))
+    const outH = Math.max(1, Math.round(cropH * scale))
+
     const croppedCanvas = document.createElement('canvas')
-    croppedCanvas.width = cropW
-    croppedCanvas.height = cropH
+    croppedCanvas.width = outW
+    croppedCanvas.height = outH
     const croppedCtx = croppedCanvas.getContext('2d')
     if (!croppedCtx) return dataUrl
-    croppedCtx.drawImage(canvas, safeMinX, safeMinY, cropW, cropH, 0, 0, cropW, cropH)
+    croppedCtx.imageSmoothingEnabled = true
+    croppedCtx.imageSmoothingQuality = 'high'
+    croppedCtx.drawImage(canvas, safeMinX, safeMinY, cropW, cropH, 0, 0, outW, outH)
 
     return croppedCanvas.toDataURL('image/png')
   } catch (e) {
@@ -2155,8 +2165,10 @@ export default function App() {
     if (state.bgEnabled && previewRef.current) {
       previewRef.current.style.borderRadius = '0px'
     }
+    previewRef.current?.classList.add('is-exporting')
     return () => {
       unlock()
+      previewRef.current?.classList.remove('is-exporting')
       if (previewRef.current && origRadius !== undefined) {
         previewRef.current.style.borderRadius = origRadius
       }
