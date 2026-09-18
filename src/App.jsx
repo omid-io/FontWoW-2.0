@@ -5360,11 +5360,13 @@ export default function App() {
         </div>
       ) : null}
 
-      <footer className="footer">
-        <a href="https://github.com/FontWoW/FontWoW.github.io" target="_blank" rel="noreferrer">
-          {t('openSource')} <I.IconExternal size={11} className="flip-rtl" />
-        </a>
-      </footer>
+      {!isNative() && (
+        <footer className="footer">
+          <a href="https://github.com/FontWoW/FontWoW.github.io" target="_blank" rel="noreferrer">
+            {t('openSource')} <I.IconExternal size={11} className="flip-rtl" />
+          </a>
+        </footer>
+      )}
     </div>
   )
 }
